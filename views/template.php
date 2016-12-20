@@ -8,7 +8,7 @@
 
 <?php 
 
-// A partir deste template será incorporado os models
+	$this->carregarViewNoTemplate($view, $array);
 
  ?>
 </body>
