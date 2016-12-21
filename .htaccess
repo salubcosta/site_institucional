@@ -3,4 +3,4 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-RewriteRule ^(.*)$ /projetos/site_institucional/index.php?url=$1 [QSA,L]
+RewriteRule ^(.*)$ /projetos_github/site_institucional/index.php?url=$1 [QSA,L]
