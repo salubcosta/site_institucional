@@ -3,7 +3,13 @@
 class homeController extends controller{
 
 	public function index(){
-		//Primeira Action caso não seja informado...
-		$this->carregarTemplate('home',array());
+		
+		$dados = array();
+
+		$portfolio = new Portfolio();
+
+		$dados['portfolio'] = $portfolio->getTrabalhos(8);
+
+		$this->carregarTemplate('home', $dados);
 	}
 }
