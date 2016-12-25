@@ -8,7 +8,7 @@
 	<h4>Últimos Trabalhos</h4>
 	<?php foreach($portfolio as $item): ?>
 	<div class="portfolio_item">
-		<img src="./assets/images/<?php echo $item['imagem'] ?>" border="0" width="200" height="150">
+		<img src="./assets/images/<?php echo $item['imagem'] ?>" title="<?php echo $item['descricao'];?>" border="0" width="200" height="150">
 	</div>
 	<?php endforeach; ?>
 
