@@ -7,8 +7,10 @@ class homeController extends controller{
 		$dados = array();
 
 		$portfolio = new Portfolio();
+		$sobre = new Sobre();
 
 		$dados['portfolio'] = $portfolio->getTrabalhos(8);
+		$dados['sobre'] = $sobre->getInformacoes();
 
 		$this->carregarTemplate('home', $dados);
 	}
