@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-	<meta charset="uft-8">
+	<meta charset="UTF-8">
 	<title>Site Institucional</title>
 	<link rel="stylesheet" href="./assets/css/template.css" />
 </head>
@@ -27,7 +27,7 @@
 	<!--container onde ficará o conteúdo dinâmico-->
 	<div class="container">
 		<?php	$this->carregarViewNoTemplate($view, $array); 	?>
- </div>
+ 	</div>
  <!--fim container-->
 
  <div class="rodape"></div>
